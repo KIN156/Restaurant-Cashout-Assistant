@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f2f2f2;
+}
+img{
+    max-width: 100px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+
+}
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+input {
+    display: inline-block;
+    width: 150px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+margin-top: 20px;
+font-size: 18px;
+font-weight: bold;
+text-align: left;
+}
+
+thead {
+background-color: #4CAF50;
+color: white;
+}
+
+th, td {
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #f2f2f2;
+}
+
+#total {
+text-align: right;
+}
+
+#sales-commission, #payable-amount {
+color: #4CAF50;
+font-weight: normal;
+}
+div {
+display: flex;
+align-items: center;
+}
+
+
+div {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height:auto;
+}
+
+img {
+max-width: 250px;
+height: auto;
+}
